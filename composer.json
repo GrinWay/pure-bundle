@@ -1,0 +1,26 @@
+{
+    "name": "grinway/pure-bundle",
+    "type": "symfony-bundle",
+    "version": "0.0.0",
+    "description": "",
+    "keywords": [
+        "symfony-ux"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grigory Koblitskiy",
+            "email": "grin180898@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GrinWay\\": "src/"
+        }
+    },
+    "conflict": {
+        "symfony/flex": "<1.13"
+    },
+    "extra": {},
+    "minimum-stability": "dev"
+}
